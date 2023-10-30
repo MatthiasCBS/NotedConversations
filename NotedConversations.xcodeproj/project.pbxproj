@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0265EA2AEFFF7800444561 /* NotedConversationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0265E92AEFFF7800444561 /* NotedConversationsApp.swift */; };
+		FA0265EC2AEFFF7800444561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0265EB2AEFFF7800444561 /* ContentView.swift */; };
+		FA0265EE2AEFFF7900444561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0265ED2AEFFF7900444561 /* Assets.xcassets */; };
+		FA0265F12AEFFF7900444561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0265F02AEFFF7900444561 /* Preview Assets.xcassets */; };
+		FA0265FB2AEFFF7900444561 /* NotedConversationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0265FA2AEFFF7900444561 /* NotedConversationsTests.swift */; };
+		FA0266052AEFFF7900444561 /* NotedConversationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0266042AEFFF7900444561 /* NotedConversationsUITests.swift */; };
+		FA0266072AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0265F72AEFFF7900444561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0265DE2AEFFF7800444561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0265E52AEFFF7800444561;
+			remoteInfo = NotedConversations;
+		};
+		FA0266012AEFFF7900444561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0265DE2AEFFF7800444561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0265E52AEFFF7800444561;
+			remoteInfo = NotedConversations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0265E62AEFFF7800444561 /* NotedConversations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotedConversations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0265E92AEFFF7800444561 /* NotedConversationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsApp.swift; sourceTree = "<group>"; };
+		FA0265EB2AEFFF7800444561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0265ED2AEFFF7900444561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0265F02AEFFF7900444561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0265F62AEFFF7900444561 /* NotedConversationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotedConversationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0265FA2AEFFF7900444561 /* NotedConversationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsTests.swift; sourceTree = "<group>"; };
+		FA0266002AEFFF7900444561 /* NotedConversationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotedConversationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0266042AEFFF7900444561 /* NotedConversationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsUITests.swift; sourceTree = "<group>"; };
+		FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0265E32AEFFF7800444561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265F32AEFFF7900444561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265FD2AEFFF7900444561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0265DD2AEFFF7800444561 = {
+			isa = PBXGroup;
+			children = (
+				FA0265E82AEFFF7800444561 /* NotedConversations */,
+				FA0265F92AEFFF7900444561 /* NotedConversationsTests */,
+				FA0266032AEFFF7900444561 /* NotedConversationsUITests */,
+				FA0265E72AEFFF7800444561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0265E72AEFFF7800444561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0265E62AEFFF7800444561 /* NotedConversations.app */,
+				FA0265F62AEFFF7900444561 /* NotedConversationsTests.xctest */,
+				FA0266002AEFFF7900444561 /* NotedConversationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0265E82AEFFF7800444561 /* NotedConversations */ = {
+			isa = PBXGroup;
+			children = (
+				FA0265E92AEFFF7800444561 /* NotedConversationsApp.swift */,
+				FA0265EB2AEFFF7800444561 /* ContentView.swift */,
+				FA0265ED2AEFFF7900444561 /* Assets.xcassets */,
+				FA0265EF2AEFFF7900444561 /* Preview Content */,
+			);
+			path = NotedConversations;
+			sourceTree = "<group>";
+		};
+		FA0265EF2AEFFF7900444561 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0265F02AEFFF7900444561 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0265F92AEFFF7900444561 /* NotedConversationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0265FA2AEFFF7900444561 /* NotedConversationsTests.swift */,
+			);
+			path = NotedConversationsTests;
+			sourceTree = "<group>";
+		};
+		FA0266032AEFFF7900444561 /* NotedConversationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0266042AEFFF7900444561 /* NotedConversationsUITests.swift */,
+				FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */,
+			);
+			path = NotedConversationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0265E52AEFFF7800444561 /* NotedConversations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA02660A2AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversations" */;
+			buildPhases = (
+				FA0265E22AEFFF7800444561 /* Sources */,
+				FA0265E32AEFFF7800444561 /* Frameworks */,
+				FA0265E42AEFFF7800444561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotedConversations;
+			productName = NotedConversations;
+			productReference = FA0265E62AEFFF7800444561 /* NotedConversations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0265F52AEFFF7900444561 /* NotedConversationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA02660D2AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversationsTests" */;
+			buildPhases = (
+				FA0265F22AEFFF7900444561 /* Sources */,
+				FA0265F32AEFFF7900444561 /* Frameworks */,
+				FA0265F42AEFFF7900444561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0265F82AEFFF7900444561 /* PBXTargetDependency */,
+			);
+			name = NotedConversationsTests;
+			productName = NotedConversationsTests;
+			productReference = FA0265F62AEFFF7900444561 /* NotedConversationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0265FF2AEFFF7900444561 /* NotedConversationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0266102AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversationsUITests" */;
+			buildPhases = (
+				FA0265FC2AEFFF7900444561 /* Sources */,
+				FA0265FD2AEFFF7900444561 /* Frameworks */,
+				FA0265FE2AEFFF7900444561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0266022AEFFF7900444561 /* PBXTargetDependency */,
+			);
+			name = NotedConversationsUITests;
+			productName = NotedConversationsUITests;
+			productReference = FA0266002AEFFF7900444561 /* NotedConversationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0265DE2AEFFF7800444561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FA0265E52AEFFF7800444561 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FA0265F52AEFFF7900444561 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FA0265E52AEFFF7800444561;
+					};
+					FA0265FF2AEFFF7900444561 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FA0265E52AEFFF7800444561;
+					};
+				};
+			};
+			buildConfigurationList = FA0265E12AEFFF7800444561 /* Build configuration list for PBXProject "NotedConversations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0265DD2AEFFF7800444561;
+			productRefGroup = FA0265E72AEFFF7800444561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0265E52AEFFF7800444561 /* NotedConversations */,
+				FA0265F52AEFFF7900444561 /* NotedConversationsTests */,
+				FA0265FF2AEFFF7900444561 /* NotedConversationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0265E42AEFFF7800444561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0265F12AEFFF7900444561 /* Preview Assets.xcassets in Resources */,
+				FA0265EE2AEFFF7900444561 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265F42AEFFF7900444561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265FE2AEFFF7900444561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0265E22AEFFF7800444561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0265EC2AEFFF7800444561 /* ContentView.swift in Sources */,
+				FA0265EA2AEFFF7800444561 /* NotedConversationsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265F22AEFFF7900444561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0265FB2AEFFF7900444561 /* NotedConversationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0265FC2AEFFF7900444561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0266072AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift in Sources */,
+				FA0266052AEFFF7900444561 /* NotedConversationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0265F82AEFFF7900444561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0265E52AEFFF7800444561 /* NotedConversations */;
+			targetProxy = FA0265F72AEFFF7900444561 /* PBXContainerItemProxy */;
+		};
+		FA0266022AEFFF7900444561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0265E52AEFFF7800444561 /* NotedConversations */;
+			targetProxy = FA0266012AEFFF7900444561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0266082AEFFF7900444561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0266092AEFFF7900444561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA02660B2AEFFF7900444561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotedConversations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA02660C2AEFFF7900444561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotedConversations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA02660E2AEFFF7900444561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotedConversations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotedConversations";
+			};
+			name = Debug;
+		};
+		FA02660F2AEFFF7900444561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotedConversations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotedConversations";
+			};
+			name = Release;
+		};
+		FA0266112AEFFF7900444561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotedConversations;
+			};
+			name = Debug;
+		};
+		FA0266122AEFFF7900444561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjacobson.NotedConversationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotedConversations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0265E12AEFFF7800444561 /* Build configuration list for PBXProject "NotedConversations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0266082AEFFF7900444561 /* Debug */,
+				FA0266092AEFFF7900444561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA02660A2AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02660B2AEFFF7900444561 /* Debug */,
+				FA02660C2AEFFF7900444561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA02660D2AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02660E2AEFFF7900444561 /* Debug */,
+				FA02660F2AEFFF7900444561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0266102AEFFF7900444561 /* Build configuration list for PBXNativeTarget "NotedConversationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0266112AEFFF7900444561 /* Debug */,
+				FA0266122AEFFF7900444561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0265DE2AEFFF7800444561 /* Project object */;
+}
