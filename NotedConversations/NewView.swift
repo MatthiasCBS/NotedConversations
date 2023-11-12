@@ -1,26 +1,26 @@
 import SwiftUI
 
 struct NewView: View {
+    @Binding var showNewView: Bool
     var body: some View {
         VStack {
             ControlGroup{
-                NavigationLink("Home", destination: HomeView())
-                NavigationLink("New", destination: NewView())
+                NavigationLink("Home", destination: HomeView(showNewView: $showNewView))
+                NavigationLink("New", destination: NewView(showNewView: $showNewView))
             }
             
             Text("Study Group Notes")
                 .font(.title)
                 .padding(.top, 10)
                 .foregroundColor(Color.blue.opacity(0.7))
+            
             Group {
                 Spacer()
                 Spacer()
                 Spacer()
-                Spacer()
-                Spacer()
-                Spacer()
             }
-            HStack(alignment: .center) {
+            
+            VStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(Color.black, lineWidth: 1)
                     .background(Color.blue.opacity(0.4))
@@ -33,15 +33,15 @@ struct NewView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .frame(width: UIScreen.main.bounds.width * 0.25)
+            .frame(width: UIScreen.main.bounds.width * 0.9)
             .frame(height: 120)
-                
+            
             Group {
                 Spacer()
                 Spacer()
                 Spacer()
             }
-
+            
             HStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(Color.black, lineWidth: 1)
@@ -55,15 +55,15 @@ struct NewView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .frame(width: UIScreen.main.bounds.width * 0.25)
+            .frame(width: UIScreen.main.bounds.width * 0.9)
             .frame(height: 120)
-
+            
             Group {
                 Spacer()
                 Spacer()
                 Spacer()
             }
-
+            
             HStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(Color.black, lineWidth: 1)
@@ -77,7 +77,7 @@ struct NewView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .frame(width: UIScreen.main.bounds.width * 0.24)
+            .frame(width: UIScreen.main.bounds.width * 0.9)
             .frame(height: 120)
             
             Group {
@@ -85,7 +85,7 @@ struct NewView: View {
                 Spacer()
                 Spacer()
             }
-                
+            
             HStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(Color.black, lineWidth: 1)
@@ -99,8 +99,8 @@ struct NewView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .frame(maxWidth: .infinity, alignment: .bottom)
-            .frame(width: UIScreen.main.bounds.width * 0.3)
-            .frame(height: 170)
+            .frame(width: UIScreen.main.bounds.width * 0.9)
+            .frame(height: 130)
         }
         .padding(.bottom)
     }

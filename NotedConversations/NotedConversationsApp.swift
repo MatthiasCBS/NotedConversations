@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct NotedConversationsApp: App {
+    @State private var showNewView: Bool = false;
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            if showNewView {
+                NewView(showNewView: $showNewView)
+            } else {
+                HomeView(showNewView: $showNewView);
+            }
         }
     }
 }
