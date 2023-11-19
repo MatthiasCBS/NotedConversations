@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct NewView: View {
-    @Binding var showNewView: Bool
-    @Binding var showExampleView: Bool
+struct ExampleView: View {
+    @Binding var showNewView: Bool;
+    @Binding var showExampleView: Bool;
     @State private var userInput: String = ""
     var body: some View {
         VStack {
@@ -15,7 +15,6 @@ struct NewView: View {
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .center)
                         .foregroundStyle(.white)
-                    
                 }
 
                 Button(action: {
@@ -41,17 +40,69 @@ struct NewView: View {
                 Spacer()
                 Spacer()
             }
-            Group {
-                Spacer()
-                Spacer()
-                Spacer()
+            
+            VStack(alignment: .center) {
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.black, lineWidth: 1)
+                    .background(Color.purple.opacity(0.4))
+                    .overlay(
+                        Text("The body contains about 2.5 million sweat pores")
+                            .font(.callout)
+                            .multilineTextAlignment(.center)
+                            .fixedSize()
+                            .foregroundStyle(.white)
+                    )
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(width: UIScreen.main.bounds.width * 1.0)
+            .frame(height: 120)
             
             Group {
                 Spacer()
                 Spacer()
                 Spacer()
             }
+            
+            HStack(alignment: .center) {
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.black, lineWidth: 1)
+                    .background(Color.purple.opacity(0.4))
+                    .overlay(
+                        Text("The skin is the body's largest organ")
+                            .font(.callout)
+                            .multilineTextAlignment(.center)
+                            .fixedSize()
+                            .foregroundStyle(.white)
+                    )
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(width: UIScreen.main.bounds.width * 1.0)
+            .frame(height: 120)
+            
+            Group {
+                Spacer()
+                Spacer()
+                Spacer()
+            }
+            
+            HStack(alignment: .center) {
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.black, lineWidth: 1)
+                    .background(Color.purple.opacity(0.4))
+                    .overlay(
+                        Text("The mitochondria is the powerhouse of the cell")
+                            .font(.callout)
+                            .multilineTextAlignment(.center)
+                            .fixedSize()
+                            .foregroundStyle(.white)
+                    )
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(width: UIScreen.main.bounds.width * 1.0)
+            .frame(height: 120)
             
             Group {
                 Spacer()
