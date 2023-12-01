@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		FA0265E62AEFFF7800444561 /* NotedConversations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotedConversations.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0265E92AEFFF7800444561 /* NotedConversationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsApp.swift; sourceTree = "<group>"; };
-		FA0265EB2AEFFF7800444561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		FA0265E92AEFFF7800444561 /* NotedConversationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsApp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		FA0265EB2AEFFF7800444561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		FA0265ED2AEFFF7900444561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0265F02AEFFF7900444561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA0265F62AEFFF7900444561 /* NotedConversationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotedConversationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		FA0266002AEFFF7900444561 /* NotedConversationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotedConversationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0266042AEFFF7900444561 /* NotedConversationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsUITests.swift; sourceTree = "<group>"; };
 		FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FA0266132AF0007400444561 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		FA0266132AF0007400444561 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		FA78C3132B09B90B00585062 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

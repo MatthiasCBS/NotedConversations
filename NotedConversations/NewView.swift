@@ -3,7 +3,9 @@ import SwiftUI
 struct NewView: View {
     @Binding var showNewView: Bool
     @Binding var showExampleView: Bool
-    @State private var userInput: String = ""
+    @State private var userInputtedTitle: String = ""
+    @State private var userInputtedText: String = ""
+    
     var body: some View {
         VStack {
             HStack {
@@ -15,7 +17,6 @@ struct NewView: View {
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .center)
                         .foregroundStyle(.white)
-                    
                 }
 
                 Button(action: {
@@ -31,10 +32,35 @@ struct NewView: View {
             }
             .padding()
             
-            Text("Study Group Notes")
-                .font(.title)
-                .padding(.top, 10)
-                .foregroundColor(Color.white.opacity(0.7))
+            GeometryReader { geometry in
+                VStack(alignment: .center) {
+                    TextField("Enter title here...", text: $userInputtedTitle)
+                        .padding(.leading, 10)
+                        .frame(width: 340)
+                        .multilineTextAlignment(.center)
+                        .font(.title)
+                        .background(Color.purple.opacity(0.3))
+                }
+                .padding(.leading, 30)
+            }
+            
+            
+            /*GeometryReader { geometry in
+                ZStack(alignment: .leading) {
+                    TextEditor(text: $userInputtedTitle)
+                        .padding(.leading, 10)
+                        .font(.title3)
+                        .opacity(0.4)
+                        .frame(height: geometry.size.height * 0.1)
+                    Text("Enter name here...")
+                        .font(.title)
+                        .padding(.top, 10)
+                        .padding(.leading, 10)
+                        .foregroundColor(Color.white.opacity(0.7))
+                        
+                }
+                .frame(width: UIScreen.main.bounds.width * 1.0)
+            }*/
             
             Group {
                 Spacer()
@@ -64,14 +90,14 @@ struct NewView: View {
                     .stroke(Color.black, lineWidth: 1)
                     .background(Color.purple.opacity(0.4))
                     .overlay(
-                        ZStack(alignment: .leading) {
-                            TextEditor(text: $userInput)
+                         VStack(alignment: .leading) {
+                            TextEditor(text: $userInputtedText)
                                 .font(.title3)
                                 .opacity(0.4)
                             Text("Enter your text here...")
                                 .font(.title3)
                                 .foregroundColor(.gray)
-                                .opacity(userInput.isEmpty ? 0.8 : 0)
+                                .opacity(userInputtedText.isEmpty ? 0.8 : 0)
                                 .padding(.bottom, 90)
                         }
                     )
