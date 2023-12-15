@@ -13,3 +13,6 @@ Week 14 Changelog:
 - Changes only in the "New" view of the app
 - Added support for inputting a title for a note
 - New State variables to hold text for the title and the information
+
+Final Changelog:
+- Majority of funtionality added
