@@ -8,3 +8,8 @@ Week 13 Changelog:
 - Enhanced button functionality, with all buttons now working and redirecting properly
 - You can now input text to the text input areas, which now includes placeholder text for where to begin typing
 - Redesigned layout, making the application more aesthetically pleasing
+
+Week 14 Changelog:
+- Changes only in the "New" view of the app
+- Added support for inputting a title for a note
+- New State variables to hold text for the title and the information
