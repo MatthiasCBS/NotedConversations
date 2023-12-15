@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ExampleView: View {
+    @Binding var showHomeView: Bool
     @Binding var showNewView: Bool;
     @Binding var showExampleView: Bool;
     @State private var userInput: String = ""
@@ -8,6 +9,7 @@ struct ExampleView: View {
         VStack {
             HStack {
                 Button(action: {
+                    showHomeView = true
                     showNewView = false
                     showExampleView = false
                 }) {
@@ -19,6 +21,7 @@ struct ExampleView: View {
 
                 Button(action: {
                     showNewView = true
+                    showHomeView = false
                     showExampleView = false
                 }) {
                     Text("New")
@@ -32,7 +35,7 @@ struct ExampleView: View {
             
             Text("Study Group Notes")
                 .font(.title)
-                .padding(.top, 10)
+                .background(Color.purple.opacity(0.3))
                 .foregroundColor(Color.white.opacity(0.7))
             
             Group {
@@ -121,7 +124,7 @@ struct ExampleView: View {
                                 .opacity(0.4)
                             Text("Enter your text here...")
                                 .font(.title3)
-                                .foregroundColor(.gray)
+                                .foregroundColor(.black)
                                 .opacity(userInput.isEmpty ? 0.8 : 0)
                                 .padding(.bottom, 90)
                         }

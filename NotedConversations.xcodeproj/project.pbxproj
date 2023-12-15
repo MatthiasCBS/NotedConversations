@@ -16,6 +16,8 @@
 		FA0266072AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */; };
 		FA0266142AF0007400444561 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0266132AF0007400444561 /* NewView.swift */; };
 		FA78C3142B09B90B00585062 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA78C3132B09B90B00585062 /* ExampleView.swift */; };
+		FAD2FCF52B2662EA00235FF1 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2FCF42B2662EA00235FF1 /* Notes.swift */; };
+		FAD2FCF72B26663600235FF1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2FCF62B26663600235FF1 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		FA0266062AEFFF7900444561 /* NotedConversationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotedConversationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA0266132AF0007400444561 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		FA78C3132B09B90B00585062 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		FAD2FCF42B2662EA00235FF1 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		FAD2FCF62B26663600235FF1 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				FA0266132AF0007400444561 /* NewView.swift */,
 				FA78C3132B09B90B00585062 /* ExampleView.swift */,
 				FA0265EB2AEFFF7800444561 /* HomeView.swift */,
+				FAD2FCF42B2662EA00235FF1 /* Notes.swift */,
+				FAD2FCF62B26663600235FF1 /* DetailView.swift */,
 				FA0265ED2AEFFF7900444561 /* Assets.xcassets */,
 				FA0265EF2AEFFF7900444561 /* Preview Content */,
 			);
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0266142AF0007400444561 /* NewView.swift in Sources */,
+				FAD2FCF72B26663600235FF1 /* DetailView.swift in Sources */,
+				FAD2FCF52B2662EA00235FF1 /* Notes.swift in Sources */,
 				FA0265EC2AEFFF7800444561 /* HomeView.swift in Sources */,
 				FA0265EA2AEFFF7800444561 /* NotedConversationsApp.swift in Sources */,
 				FA78C3142B09B90B00585062 /* ExampleView.swift in Sources */,

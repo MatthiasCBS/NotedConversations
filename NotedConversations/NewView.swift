@@ -1,113 +1,136 @@
 import SwiftUI
 
 struct NewView: View {
+    @Binding var showHomeView: Bool
+    @ObservedObject var noteManager: NoteManager
     @Binding var showNewView: Bool
     @Binding var showExampleView: Bool
     @State private var userInputtedTitle: String = ""
     @State private var userInputtedText: String = ""
-    
+    @State private var storedNotes: [StoredNote] = []
+    @State private var isActive: Bool = true {
+        didSet {
+            if !isActive {
+                storedNotes = []
+            }
+        }
+    }
+
     var body: some View {
         VStack {
             HStack {
+                Spacer()
                 Button(action: {
+                    showHomeView = true
                     showNewView = false
                     showExampleView = false
                 }) {
                     Text("Home")
-                        .padding()
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .foregroundStyle(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .foregroundStyle(.white)
                 }
-
+                
                 Button(action: {
                     showNewView = true
+                    showHomeView = false
                     showExampleView = false
                 }) {
                     Text("New")
-                        .padding()
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .foregroundStyle(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .foregroundStyle(.white)
+                }
+                
+                Button(action: {
+                    noteManager.addNote(title: userInputtedTitle, text: userInputtedText)
+                    showHomeView = true
+                    showNewView = false
+                    showExampleView = false
+                    userInputtedTitle = ""
+                    userInputtedText = ""
+                    
+                    print("All Notes: \(noteManager.notes)")
+                }) {
+                    Text("Save")
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .foregroundStyle(.white)
                 }
                 .padding(.horizontal, 15)
             }
             .padding()
             
-            GeometryReader { geometry in
-                VStack(alignment: .center) {
-                    TextField("Enter title here...", text: $userInputtedTitle)
-                        .padding(.leading, 10)
-                        .frame(width: 340)
-                        .multilineTextAlignment(.center)
-                        .font(.title)
-                        .background(Color.purple.opacity(0.3))
+            TextField("Enter Title Here...", text: $userInputtedTitle)
+                .padding(.leading, 10)
+                .frame(width: 340)
+                .multilineTextAlignment(.center)
+                .font(.title)
+                .background(Color.purple.opacity(0.3))
+                .foregroundColor(.white)
+
+            VStack(alignment: .center) {
+                ScrollView {
+                    ForEach(storedNotes, id: \.self) { storedNote in
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color.black, lineWidth: 1)
+                            .background(Color.purple.opacity(0.4))
+                            .overlay(
+                                VStack(alignment: .leading) {
+                                    Text(storedNote.text)
+                                        .foregroundColor(.white)
+                                        .padding()
+                                }
+                            )
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(height: 70)
+                            .padding(.bottom)
+                    }
                 }
-                .padding(.leading, 30)
             }
-            
-            
-            /*GeometryReader { geometry in
-                ZStack(alignment: .leading) {
-                    TextEditor(text: $userInputtedTitle)
-                        .padding(.leading, 10)
-                        .font(.title3)
-                        .opacity(0.4)
-                        .frame(height: geometry.size.height * 0.1)
-                    Text("Enter name here...")
-                        .font(.title)
-                        .padding(.top, 10)
-                        .padding(.leading, 10)
-                        .foregroundColor(Color.white.opacity(0.7))
-                        
+            .frame(maxHeight: 1000)
+
+            TextEditor(text: $userInputtedText)
+                .font(.title3)
+                .foregroundColor(.black)
+                .background(Color.purple.opacity(1.0))
+                .frame(maxWidth: .infinity, maxHeight: 220)
+                .padding(.bottom, 90)
+                .opacity(0.8)
+
+                Button(action: {
+                    guard !userInputtedTitle.isEmpty else { return }
+
+                    let newStoredNote = StoredNote(title: userInputtedTitle, text: userInputtedText)
+                    storedNotes.append(newStoredNote)
+                }) {
+                    Text("Enter")
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .foregroundStyle(.black)
                 }
-                .frame(width: UIScreen.main.bounds.width * 1.0)
-            }*/
-            
-            Group {
-                Spacer()
-                Spacer()
-                Spacer()
+                .background(Color.purple.opacity(0.4))
             }
-            Group {
-                Spacer()
-                Spacer()
-                Spacer()
+            .background(Color.gray.edgesIgnoringSafeArea(.all))
+            .onAppear {
+                storedNotes = noteManager.notes.map { StoredNote(title: $0.title, text: $0.text) }
             }
-            
-            Group {
-                Spacer()
-                Spacer()
-                Spacer()
+            .onDisappear {
+                isActive = false
+                storedNotes = []
             }
-            
-            Group {
-                Spacer()
-                Spacer()
-                Spacer()
+            .onReceive(noteManager.$notes) { updatedNotes in
+                if isActive {
+                    storedNotes = updatedNotes.map {
+                        StoredNote(title: $0.title, text: $0.text)
+                }
             }
-            
-            HStack(alignment: .center) {
-                RoundedRectangle(cornerRadius: 8)
-                    .stroke(Color.black, lineWidth: 1)
-                    .background(Color.purple.opacity(0.4))
-                    .overlay(
-                         VStack(alignment: .leading) {
-                            TextEditor(text: $userInputtedText)
-                                .font(.title3)
-                                .opacity(0.4)
-                            Text("Enter your text here...")
-                                .font(.title3)
-                                .foregroundColor(.gray)
-                                .opacity(userInputtedText.isEmpty ? 0.8 : 0)
-                                .padding(.bottom, 90)
-                        }
-                    )
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-            }
-            .frame(maxWidth: .infinity, alignment: .bottom)
-            .frame(width: UIScreen.main.bounds.width * 1.0)
-            .frame(height: 130)
         }
-        .padding(.bottom)
-        .background(Color.gray.edgesIgnoringSafeArea(.all))
     }
+}
+
+struct StoredNote: Identifiable, Hashable {
+    let id = UUID()
+    let title: String
+    let text: String
 }

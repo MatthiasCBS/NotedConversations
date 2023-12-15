@@ -7,77 +7,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BF4DD7F5-7081-4CDC-87C2-70E4CBEC5ACA"
+            uuid = "0A9B33AF-6306-466C-A032-0B02C3A5F60A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NotedConversations/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7"
-            endingLineNumber = "7"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "unknown"
             landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "BF4DD7F5-7081-4CDC-87C2-70E4CBEC5ACA - 40f267dea4c3b6b2"
+                  uuid = "0A9B33AF-6306-466C-A032-0B02C3A5F60A - e0fbacf9ad35d106"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NotedConversations.HomeView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #1 (NotedConversations.Note) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in NotedConversations.ConversationList.body.getter : some"
                   moduleName = "NotedConversations"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "404">
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1032">
                </Location>
                <Location
-                  uuid = "BF4DD7F5-7081-4CDC-87C2-70E4CBEC5ACA - adbed83a9417cdd9"
+                  uuid = "0A9B33AF-6306-466C-A032-0B02C3A5F60A - 576af29062ce9614"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in NotedConversations.HomeView.body.getter : some"
+                  symbolName = "closure #1 (NotedConversations.Note) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in NotedConversations.ConversationList.body.getter : some"
                   moduleName = "NotedConversations"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "620">
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "308">
                </Location>
                <Location
-                  uuid = "BF4DD7F5-7081-4CDC-87C2-70E4CBEC5ACA - adbed83a9417cd3e"
-                  shouldBeEnabled = "No"
+                  uuid = "0A9B33AF-6306-466C-A032-0B02C3A5F60A - b04023c192386447"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in NotedConversations.HomeView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (NotedConversations.Note) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in NotedConversations.ConversationList.body.getter : some"
                   moduleName = "NotedConversations"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "8"
-                  endingLineNumber = "8"
-                  offsetFromSymbolStart = "632">
-               </Location>
-               <Location
-                  uuid = "BF4DD7F5-7081-4CDC-87C2-70E4CBEC5ACA - 7c2c6be8bc74dd87"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.scaleEffect(_: CoreGraphics.CGFloat, anchor: SwiftUI.UnitPoint) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in NotedConversations.HomeView.body.getter : some"
-                  moduleName = "NotedConversations"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "8"
-                  endingLineNumber = "8"
-                  offsetFromSymbolStart = "472">
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "196">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -85,65 +70,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D5F668E6-1695-4EE7-A798-C6FD389BBE25"
+            uuid = "A8E5C642-B000-49D5-B780-62BA599E2834"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NotedConversations/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6"
-            endingLineNumber = "6"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "unknown"
             landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "D5F668E6-1695-4EE7-A798-C6FD389BBE25 - 40f267dea4c3b6b2"
+                  uuid = "A8E5C642-B000-49D5-B780-62BA599E2834 - 8a626e303e25ba2d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NotedConversations.HomeView.body.getter : some"
+                  symbolName = "NotedConversations.ConversationList.body.getter : some"
                   moduleName = "NotedConversations"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "404">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "236">
                </Location>
                <Location
-                  uuid = "D5F668E6-1695-4EE7-A798-C6FD389BBE25 - adbed83a9417cdd9"
+                  uuid = "A8E5C642-B000-49D5-B780-62BA599E2834 - 576af29062ce9343"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in NotedConversations.HomeView.body.getter : some"
+                  symbolName = "closure #1 (NotedConversations.Note) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in NotedConversations.ConversationList.body.getter : some"
                   moduleName = "NotedConversations"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewjacobson/Desktop/CIS-280/NotedConversations/NotedConversations/HomeView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "620">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "296">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "694EF082-762E-41DB-B868-FB207E430627"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NotedConversations/NewView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "unknown"
-            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
