@@ -32,16 +32,26 @@ struct DetailView: View {
             .padding()
             
             if let note = noteManager.openNote(index: noteIndex) {
-                Text("Note Title: \(note.title)")
+                Text("\(note.title)")
                     .font(.title)
                     .multilineTextAlignment(.center)
                     .fixedSize()
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.purple.opacity(0.9))
                     .padding()
                 
-                Text(note.text)
-                    .foregroundColor(.white)
-                    .padding()
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.black, lineWidth: 1)
+                    .background(Color.purple.opacity(0.4))
+                    .overlay(
+                        VStack(alignment: .leading) {
+                            Text(note.text)
+                                .foregroundColor(.white)
+                                .padding()
+                        }
+                    )
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(height: 70)
+                    .padding(.bottom)
                 
                 Spacer()
             } else {
